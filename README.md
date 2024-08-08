@@ -1,1 +1,36 @@
 # trabalho
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 2 ano M</title>
+</head>
+<body>
+
+    <form action="https://formspree.io/f/mwpeblre" method="post">
+        <h1>Nome</h1>
+        <input type="text" name="name" placeholder="ex: Mariana Passos" required><br>
+        <input type="email" name="email" placeholder="marialuizazen@escola.pr.gov.br" value="@escola.gov.br">
+        <input type="number" name="phone" placeholder="(XX) XXXXX-XXXX"> 
+        <input type="radio" name="work" value="sim"> Com certeza
+        <input type="radio" name="work" value="não"> Sem certeza
+        <br>
+<select name="estados" id="">
+        <option value="1">Paraná</option>
+        <option value="1">Rio de Janeiro</option>
+        <option value="1">São Paulo</option>
+        <option value="1">Santa Catarina</option>
+</select>
+<br>
+
+<textarea name="reclamação" id=""></textarea>
+
+<br>
+
+        <input type="checkbox" name="novidades" Aceito receber novidades por e-mail da empresa>
+    <button tipe="submit">Enviar</button>
+    <button tipe="reset">Apagar</button>
+    </form>
+</body>
+</html>
